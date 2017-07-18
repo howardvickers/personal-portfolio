@@ -1,0 +1,39 @@
+.main-text {
+    font-size: 12px;
+    color: blueviolet;
+}
+.menu {
+    list-style-type: none;
+    padding: 25px;
+    background-color: gray;
+    display: block;
+    color: white;
+    text-align: center;
+ 
+}
+.active {
+    background-color: orange;
+}
+
+.menu > li {
+    display: inline;
+    color: white;
+    padding: 25px;
+
+}
+.menu a {
+    color: whitesmoke;
+    padding: 25px;
+}
+.menu a:hover {
+    background-color: brown;
+}
+.gallery {
+    float: left;
+    margin: 5px;
+    border: 10px solid orange;
+    width: 300px;
+}
+.desc {
+    text-align: center;
+}
